@@ -1,0 +1,74 @@
+.custom-header-top{
+    padding: 180px 0;
+    .hero-header{
+        width: 350px;
+    }
+    .custom-header{
+        h1{
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        p{
+            font-size: 22px;
+            font-weight: 400;
+            color: #8A889D;
+        }
+        .btn-see{
+            background-color: #6937FF;
+            color: white;
+            padding: 16px 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        button{
+            font-weight: bold;
+            font-size: 18px;
+            &:hover{
+                background-color:#5e2bf8 ;
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+    .animated{
+        animation: mymove 2s infinite;
+    }
+}
+
+.hr-custom{
+    hr{
+        width: 85%;
+        margin: 50px 0;
+    }
+    .icon-sosmed{
+        font-size: 25px;
+        color: #757384;
+    }
+    .fa-github{
+        &:hover{
+            color: black;
+        }
+    }
+    .fa-dribbble{
+        &:hover{
+            color: #ea4c89;
+        }
+    }
+    .fa-instagram{
+        &:hover{
+            background: -webkit-linear-gradient(#405de6, #5851db , #c13584,#e1306c, #fd1d1d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+@keyframes mymove {
+    0%{
+        transform: translateX(-5px);
+    }50%{
+        transform: translateX(5px);
+    }100%{
+        transform: translateX(-5px);
+    }
+}

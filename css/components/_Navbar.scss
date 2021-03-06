@@ -1,0 +1,18 @@
+.navbar{
+    padding:30px 0 0 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-custom{
+    padding: 12px 22px;
+    background-color: #33BFFC;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    &:hover{
+        color: white;
+        background-color: #0ea4e4;
+        transition: 0.3s ease-in-out;
+    }
+}

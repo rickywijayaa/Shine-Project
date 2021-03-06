@@ -1,0 +1,21 @@
+<svg width="264" height="281" viewBox="0 0 264 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="52" y="8" width="47.7475" height="199.346" rx="5" fill="#8A6FFF"/>
+<rect x="130" y="109" width="47" height="98" rx="5" fill="#B2A0FF"/>
+<rect x="207" y="109" width="48" height="98" rx="5" fill="#E1DBFF"/>
+<circle cx="142.551" cy="8.55141" r="8.55141" fill="#FF6E6E" fill-opacity="0.7"/>
+<circle cx="142.551" cy="34.2057" r="8.55141" fill="#FF6E6E"/>
+<circle cx="142.551" cy="59.8598" r="8.55141" fill="#FF6E6E"/>
+<circle cx="142.551" cy="85.5141" r="8.55141" fill="#FF6E6E"/>
+<circle cx="176.757" cy="34.2057" r="8.55141" fill="#FF6E6E" fill-opacity="0.6"/>
+<circle cx="176.757" cy="59.8598" r="8.55141" fill="#FF6E6E"/>
+<circle cx="210.963" cy="60.715" r="8.55141" fill="#FF6E6E" fill-opacity="0.5"/>
+<circle cx="176.757" cy="85.5141" r="8.55141" fill="#FF6E6E"/>
+<circle cx="210.963" cy="85.5141" r="8.55141" fill="#FF6E6E"/>
+<circle cx="245.168" cy="85.5141" r="8.55141" fill="#FF6E6E" fill-opacity="0.4"/>
+<rect x="253.732" y="165" width="10.1463" height="50.7317" rx="5" fill="#F998CC"/>
+<rect x="263.878" y="205.585" width="10.1463" height="60.878" rx="5" transform="rotate(90 263.878 205.585)" fill="#F998CC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M52 202C55.7318 233.204 82.2909 257.395 114.5 257.395C146.709 257.395 173.268 233.204 177 202H52Z" fill="#FFA1A1"/>
+<circle cx="198.5" cy="250.5" r="27" fill="#FFEBF7" stroke="#F998CC" stroke-width="7"/>
+<path d="M-1.5299e-06 57L52.5 26.6891L52.5 87.3109L-1.5299e-06 57Z" fill="#CCF2FF"/>
+<path d="M-1.5299e-06 142L52.5 111.689L52.5 172.311L-1.5299e-06 142Z" fill="#66D4FF"/>
+</svg>
