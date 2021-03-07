@@ -1,0 +1,50 @@
+footer{
+    margin-top: 20px;
+    padding: 140px 0 10px;
+    background-color: #323275;
+    color: white;
+    hr{
+        margin-top: 100px;
+        background-color: white;
+    }
+    span{
+        margin-top: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        width: 20%;
+    }
+    img{
+        width: 100px;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    li{
+        list-style: none;
+        padding: 10px 0;
+        font-size: 20px;
+        a{
+            color: white;
+            &:hover{
+                color: #8b8b8b ;
+            }
+        }
+    }
+    .head-footer{
+        font-size: 52px;
+    }
+    .head5-footer{
+        font-size: 22px;
+        line-height: 1.6;
+    }
+    .para-footer{
+        font-size: 18px;
+    }
+    
+}
+
+.inspired{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #c9c9cd;
+}

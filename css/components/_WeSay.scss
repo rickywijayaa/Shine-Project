@@ -1,0 +1,84 @@
+.custom-say{
+    padding: 110px;
+    background-color: #f9fafd;
+    h1{
+        font-size: 50px;
+        line-height: 1.06;
+    }
+    p{
+        margin: 20px auto 0;
+        font-size: 22px;
+        letter-spacing: .5px;
+    }
+    .custom-bg{
+        width: 30%;
+        height: 280px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0 -5px 15px 0 #e0e0e0;
+        overflow: hidden;
+        // transform: rotate(2deg);
+        .custom-padding-testi{
+            padding: 30px;
+            font-size: 18px;
+        }
+    }
+    .custom-footer-testi{
+        background: linear-gradient(92.78deg, #a855f7 23.9%, #6366f1 98.02%);
+        // border-bottom-left-radius: 8px;
+        // border-bottom-right-radius: 8px;
+        padding: 18px 40px;
+        .testi-img{
+            width: 50px;
+            border-radius: 50%;
+            border:2px solid white;
+        }
+        .text-testi{
+            color: white;
+            font-weight: 600;
+            .testi-people{
+                font-weight: 600;
+            }
+        }
+        .custom-text{
+            color: #e5e7eb ;
+            &:hover{
+                color: #ffffff;
+                transition: 0.3s;
+            }
+        }
+    }
+    .custom-profile{
+        padding: 2.5rem;
+    }
+}
+
+.custom-bg1{
+    width: 30%;
+    height: 280px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 -5px 15px 0 #e0e0e0;
+    overflow: hidden;
+    // transform: rotate(-2deg);
+    .custom-padding-testi{
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+.custom-bg2{
+    width: 30%;
+    height: 280px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 -5px 15px 0 #e0e0e0;
+    overflow: hidden;
+    // transform: rotate(3deg);
+    .custom-padding-testi{
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+.fill-red { fill: #bfb0ff; }

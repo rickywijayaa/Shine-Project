@@ -6,7 +6,7 @@
 .navbar {
   padding: 30px 0 0 0;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .btn-custom {
@@ -148,8 +148,18 @@
 }
 
 .custom-partner .custom-div {
-  padding: 50px;
-  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  padding: 25px;
+  height: 120px;
   border-radius: 16px;
   background-color: white;
   margin-bottom: 25px;
@@ -158,18 +168,192 @@
 }
 
 .custom-partner .custom-div .custom-img {
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .custom-we {
   padding: 70px 0 180px 0;
 }
 
+.custom-we .custom-p {
+  font-size: 22px;
+  letter-spacing: .5px;
+}
+
+.custom-we h1 {
+  font-size: 50px;
+}
+
 .custom-we p {
   padding: 10px 0 0 0;
 }
 
+.custom-we .pt-3 {
+  font-size: 18px;
+  color: #7b6881;
+}
+
 .custom-we .custom-margin {
   margin-top: 80px;
+}
+
+.custom-say {
+  padding: 110px;
+  background-color: #f9fafd;
+}
+
+.custom-say h1 {
+  font-size: 50px;
+  line-height: 1.06;
+}
+
+.custom-say p {
+  margin: 20px auto 0;
+  font-size: 22px;
+  letter-spacing: .5px;
+}
+
+.custom-say .custom-bg {
+  width: 30%;
+  height: 280px;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0 -5px 15px 0 #e0e0e0;
+          box-shadow: 0 -5px 15px 0 #e0e0e0;
+  overflow: hidden;
+}
+
+.custom-say .custom-bg .custom-padding-testi {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.custom-say .custom-footer-testi {
+  background: linear-gradient(92.78deg, #a855f7 23.9%, #6366f1 98.02%);
+  padding: 18px 40px;
+}
+
+.custom-say .custom-footer-testi .testi-img {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.custom-say .custom-footer-testi .text-testi {
+  color: white;
+  font-weight: 600;
+}
+
+.custom-say .custom-footer-testi .text-testi .testi-people {
+  font-weight: 600;
+}
+
+.custom-say .custom-footer-testi .custom-text {
+  color: #e5e7eb;
+}
+
+.custom-say .custom-footer-testi .custom-text:hover {
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.custom-say .custom-profile {
+  padding: 2.5rem;
+}
+
+.custom-bg1 {
+  width: 30%;
+  height: 280px;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0 -5px 15px 0 #e0e0e0;
+          box-shadow: 0 -5px 15px 0 #e0e0e0;
+  overflow: hidden;
+}
+
+.custom-bg1 .custom-padding-testi {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.custom-bg2 {
+  width: 30%;
+  height: 280px;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0 -5px 15px 0 #e0e0e0;
+          box-shadow: 0 -5px 15px 0 #e0e0e0;
+  overflow: hidden;
+}
+
+.custom-bg2 .custom-padding-testi {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.fill-red {
+  fill: #bfb0ff;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 140px 0 10px;
+  background-color: #323275;
+  color: white;
+}
+
+footer hr {
+  margin-top: 100px;
+  background-color: white;
+}
+
+footer span {
+  margin-top: 20px;
+  border: 1px solid white;
+  width: 20%;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer ul {
+  margin-top: 20px;
+}
+
+footer li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+footer li a {
+  color: white;
+}
+
+footer li a:hover {
+  color: #8b8b8b;
+}
+
+footer .head-footer {
+  font-size: 52px;
+}
+
+footer .head5-footer {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+footer .para-footer {
+  font-size: 18px;
+}
+
+.inspired {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #c9c9cd;
 }
 /*# sourceMappingURL=index.css.map */
