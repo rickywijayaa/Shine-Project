@@ -24,12 +24,16 @@
   transition: 0.3s ease-in-out;
 }
 
+.navbar-brand img {
+  width: 120px;
+}
+
 .custom-header-top {
   padding: 180px 0;
 }
 
 .custom-header-top .hero-header {
-  width: 450px;
+  width: 550px;
 }
 
 .custom-header-top .custom-header h1 {

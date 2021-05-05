@@ -1,0 +1,196 @@
+.btn-custom {
+    padding: 12px 22px;
+    background-color: #6e4dff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: #8A6FFF;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*border: 2px solid #000000; note: use this for border (if needed) */
+.mouse{
+    width: 2.5rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-bottom: .5rem;
+    display: flex;
+}
+
+.mouse span {
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1s linear infinite;
+}
+
+.arrow span{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #000000;
+    border: 2px solid transparent;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    transform: rotate(45deg);
+    animation: arrow-down 0.60s alternate infinite;
+}
+
+@keyframes move-wheel {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
+}
+
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: .25;
+    }
+
+    50%{
+        opacity: .5;
+    }
+
+    75%{
+        opacity: .75;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.custom-header-top {
+    padding: 180px 0;
+}
+
+.custom-header-top .img2 {
+    width: 700px;
+}
+
+.custom-header-top .custom-header button:hover {
+    background-color: #5e2bf8;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.custom-header-top .custom-header h3 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-header-top .custom-header p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #8A889D;
+}
+
+.hr-custom hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-goal {
+    background-color: #6b32b6;
+    padding: 70px 0 180px 0;
+    margin-top: 150px;
+}
+
+.custom-goal .custom-p h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-goal .custom-p {
+    font-size: 22px;
+    letter-spacing: .5px;
+}
+
+.custom-goal .custom-p p {
+    color:white;
+}
+
+.custom-goal .img3 {
+    width: 700px;
+}
+
+.custom-goal .custom-project h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-goal .custom-project {
+    font-size: 22px;
+    letter-spacing: .5px;
+    margin-top: 80px;
+}
+
+.custom-goal .custom-project p {
+    color:white;
+}
+
+.custom-office {
+    background-color: #F9FAFD;
+    padding: 70px 0 180px 0;
+}
+
+.custom-office h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.custom-office .custom-p {
+    font-size: 22px;
+    letter-spacing: .5px;
+}
+
+.custom-office .img4 {
+    width: 300px;
+    margin-top: 80px;
+}
+
+.custom-office .img5 {
+    width: 410px;
+    margin-top: 80px;
+}
